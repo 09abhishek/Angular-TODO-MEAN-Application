@@ -16,7 +16,7 @@ var app = express();
 
 // ********************** MONGOOSE CONNECTION ********************//
 
-                    // Depricated API
+                    // Depricated API // Use in the previous ver of Mongo DB
 // mongoose.connect('localhost:27017/node-angular');
 
 mongoose.connect('mongodb://localhost:27017/node-angular', {
